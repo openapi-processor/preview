@@ -44,7 +44,7 @@ jobs:
         run: npm i
 
       - name: Generate Site
-        working-directory: ./docs
+        working-directory: antora
         run: npx antora antora-playbook.yml
 
       - name: Upload artifact

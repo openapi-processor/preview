@@ -40,7 +40,7 @@ jobs:
           node-version: '16'
 
       - name: Install Antora
-        working-directory: ./docs
+        working-directory: antora
         run: npm i
 
       - name: Generate Site

@@ -17,7 +17,6 @@ content:
     start_path: docs
     branches: [2022.4.x, 2022.3.x, 2021.4.x]
 
-  - url: ../openapi-processor-json
   - url: https://github.com/openapi-processor/openapi-processor-json
     start_path: docs
     branches: [master]

@@ -1,0 +1,4 @@
+.antora-cache
+node_modules
+public/*
+!public/schemas

@@ -1,0 +1,3 @@
+== generate local site
+
+ npx antora antora-playbook-local.yml  --ui-bundle-url ../../openapi-processor-site-ui/build/ui-bundle.zip

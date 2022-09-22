@@ -11,7 +11,7 @@ content:
 
   - url: https://github.com/openapi-processor/openapi-processor-spring
     start_path: docs
-    branches: [2022.4.x, 2022.3.x]
+    branches: [master, 2022.4.x, 2022.3.x]
 
   - url: https://github.com/openapi-processor/openapi-processor-micronaut
     start_path: docs

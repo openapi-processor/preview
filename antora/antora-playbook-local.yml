@@ -3,19 +3,22 @@ site:
   url: http://localhost:8080
   start_page: home@oap::home.adoc
 
+urls:
+  latest_version_segment: ''
+
 content:
   sources:
-  - url: ../../openapi-processor-site
+  - url: ../
     start_path: docs
     branches: [master]
 
   - url: ../../openapi-processor-spring
     start_path: docs
-    branches: [master, 2024.2.x, 2024.1.x, 2023.6.x, 2023.5.x, 2023.4.x, 2023.3.x, 2023.2.x, 2023.1.x, 2022.5.x, 2022.4.x]
+    branches: [2024.6.x, 2024.5.x, 2024.4.x, 2024.3.x, 2024.2.x, 2024.1.x, 2023.6.x, 2023.5.x, 2023.4.x, 2023.3.x, 2023.2.x, 2023.1.x, master]
 
   - url: ../../openapi-processor-micronaut
     start_path: docs
-    branches: [master, 2024.2.x, 2024.1.x, 2023.6.x, 2023.5.x, 2023.4.x, 2023.3.x, 2023.2.x, 2023.1.x, 2022.5.x, 2022.4.x]
+    branches: [2024.6.x, 2024.5.x, 2024.4.x, 2024.3.x, 2024.2.x, 2024.1.x, 2023.6.x, 2023.5.x, 2023.4.x, 2023.3.x, 2023.2.x, 2023.1.x, master]
 
   - url: ../../openapi-processor-json
     start_path: docs
@@ -23,11 +26,11 @@ content:
 
   - url: ../../openapi-processor-maven
     start_path: docs
-    branches: [master, 2024.1, 2021.1.x, 1.0.x]
+    branches: [2024.1.x, 2021.1.x, 1.0.x. master]
 
   - url: ../../openapi-processor-gradle
     start_path: docs
-    branches: [master, 2023.2.x, 2023.1.x, 2022.2.x, 2022.1.x, 2021.3.x]
+    branches: [2023.2.x, 2023.1.x, 2022.2.x, 2022.1.x, 2021.3.x. master]
 
   - url: ../../openapi-processor-samples
     start_path: docs
@@ -35,11 +38,11 @@ content:
 
   - url: ../../openapi-processor-api
     start_path: docs
-    branches: [master, 2023.1.x, 2021.1.x]
+    branches: [2024.1, 2023.1.x, 2021.1.x. master]
 
 ui:
   bundle:
-    url: https://github.com/openapi-processor/openapi-processor-site-ui/releases/download/v2022.5/ui-bundle.zip
+    url: https://github.com/openapi-processor/openapi-processor-site-ui/releases/download/v2024.1/ui-bundle.zip
 #    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   default_layout: oap
